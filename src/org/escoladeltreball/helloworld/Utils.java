@@ -19,4 +19,15 @@ public interface Utils {
 	 */
 	public abstract int sum(int[] values);
 	
+	/*
+	 * This returns the frequency of n in values. 
+	 */
+	public abstract int frequency(int[] values, int n);
+	
+	/*
+	 * This returns the frequency in percentage of n in values. 
+	 */
+	public abstract double frequencyPercentage(int[] values, int n);
+	
+	
 }
