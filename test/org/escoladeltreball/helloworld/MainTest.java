@@ -96,11 +96,6 @@ public class MainTest {
 	@Ignore("El tractarem mes tard")
 	@Test
 	public final void testFrequencyPercentage() {
-		assertEquals(2, main.frequencyPercentage(new int[] {1,2,3,4,5,5},5));
-		assertEquals(0, main.frequencyPercentage(new int[] {4,3,6,1,9},5));
-		assertEquals(1, main.frequencyPercentage(new int[] {1,-3,3,6},-3));
-		assertEquals(1, main.frequencyPercentage(new int[] {3},3));
-		assertEquals(3, main.frequencyPercentage(new int[] {1,1,1},1));
 	}
 
 }
